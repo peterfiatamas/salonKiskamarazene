@@ -1,0 +1,20 @@
+#alarm{
+    color: red;
+    text-align: center;
+}
+.mezo{
+    width: 50%;
+}
+
+.hiba{
+    border-color: red;
+    color: red;
+}
+#hibus{
+    color: red;
+}
+@media only screen and (max-width: 678px) {  
+    .mezo{
+        width: 100%;
+    }
+}

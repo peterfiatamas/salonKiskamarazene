@@ -1,0 +1,42 @@
+/*MOBILNÉZET*/
+
+.picture-container{
+    background: #d9e8f5;
+}
+.picture{
+    margin-top: 20px;
+}
+
+.video-container{
+    background: #d9e8f5;
+}
+.figyelem{
+    text-align: justify;
+}
+.handel{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.intro{
+    text-align: justify;
+}
+.videok{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.hvideo{
+    margin-left: 10px;
+}
+@media only screen and (max-width: 678px) {
+
+    .cim{
+        color: #2966b1; 
+        text-align: center;
+    }   
+    .videok{
+        width: 100%;
+        height: 280px;
+    }
+
+}

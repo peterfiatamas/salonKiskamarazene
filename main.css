@@ -1,0 +1,75 @@
+/*Fő css*/
+body, html{
+    background-color: #d9e8f5; 
+}
+
+.head{
+    background-color: #d9e8f5;
+}
+.cim{
+    color: #2966b1; 
+    text-align: left;
+}
+.tel{
+    text-align: right;
+    color: #2966b1;
+}
+
+.secret{
+    display: none;
+    padding-right: 4px;
+}
+.look{
+    background: gray;
+    color: #fff;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.look:hover{
+    background: #cccccc;
+}
+.menu-container{
+    background-color: #2966b1;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu{
+    padding-top: 5px;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.menu a:hover{
+    text-decoration: none;
+    color: gold;
+}
+
+.cim{
+    text-align: justify;  
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media only screen and (max-width: 678px) {
+    .menu a{
+        display: block;
+        padding: 5px;
+    }
+
+    .cim{
+        color: #2966b1; 
+        text-align: center;
+    }
+    .tel{
+        text-align: center;
+        color: #2966b1;
+    }
+    .num{
+        text-align: center;
+    }
+}

@@ -1,0 +1,56 @@
+
+.slide-picture{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: none;
+    cursor: pointer;
+}
+.slide-picture.active{
+    display: block;
+}
+.sl-picture1{
+    background-image: url(kepek/a.jpg);
+}
+.sl-picture2{
+    background-image: url(kepek/h1.jpg);
+}
+.sl-picture3{
+    background-image: url(kepek/q1.jpg);
+}
+.sl-picture4{
+    background-image: url(kepek/h2.jpg);
+}
+.sl-picture5{
+    background-image: url(kepek/h3.jpg);
+}
+.szalon{
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+}
+
+p{
+    padding-top: 40px;
+    text-align: justify;
+}
+
+.cim{
+    text-align: justify;  
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.text-hidden{
+    display: none;
+    text-align: justify;
+}
+.text-field{
+    background-color: #d9e8f5;  
+}
+
+.gomb{
+    margin-bottom: 20px;
+}
